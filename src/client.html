@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8" />
+  <title>TODO App</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="icon" href="icons/red-matreshka-inside-icon-192.png" />
+  <link rel="manifest" type="text/json" href="manifest.json" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A simple and easy-to-use online to-do list" />
+</head>
+<body>
+  <header>
+    <h3>Simple Task Board</h3>
+  </header>
+  <main>
+    <form id="add-task-form" , method="post">
+      <input type="text" id="title" name="title" placeholder=" Task title" required>
+      <br>
+      <textarea type="text" id="description" name="description" placeholder=" Description" required></textarea>
+      <br>
+      <button type="submit" id="create-btn">Create</button>
+    </form>
+    <div id="tabs">
+      <div id="tasks-tab">
+        <div id="tab-title">TODO</div>
+        <div id="tab-contents">
+          <ul id="todo"></ul>
+        </div>
+      </div>
+      <button type="update" id="in-progress-btn">></button>
+      <div id="tasks-tab">
+        <div id="tab-title">In progress</div>
+        <div id="tab-contents">
+          <ul id="in-progress"></ul>
+        </div>
+      </div>
+      <button type="update" id="done-btn">></button>
+      <div id="tasks-tab">
+        <div id="tab-title">Done</div>
+        <div id="tab-contents">
+          <ul id="done"></ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="tasksManager.js"></script>
+</body>
+</html>

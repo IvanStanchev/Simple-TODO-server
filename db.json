@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "id": "b0bd99d2b353a22764aa88f70ac37e9e",
+      "title": "Example",
+      "description": "This one is a simple description of a todo task",
+      "isInProgress": false,
+      "completed": false
+    },
+    {
+      "id": "cf5c607a014b77385cf90f3ef84d5d4d",
+      "title": "123",
+      "description": "321312313",
+      "isInProgress": false,
+      "completed": true
+    },
+    {
+      "id": "cbb879b983654372e9b6aea3d8dd09eb",
+      "title": "Task",
+      "description": "Description lorem ipsum",
+      "isInProgress": true,
+      "completed": false
+    }
+  ]
+}

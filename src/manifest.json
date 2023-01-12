@@ -1,0 +1,24 @@
+{
+    "short_name": "TODO App",
+    "name": "Simple Online ToDo List App",
+    "start_url": "/tasks",
+    "display": "standalone",
+    "background_color": "#fafafa",
+    "theme_color": "#7749F8",
+    "icons": [
+      {
+        "src": "icons/red-matreshka-inside-icon-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "icons/red-matreshka-inside-icon-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "permissions": [],
+    "description": "A simple and easy to use online TODO list",
+    "lang": "en-US"
+  }
+  
